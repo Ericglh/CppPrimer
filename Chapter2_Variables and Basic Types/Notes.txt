@@ -1,0 +1,14 @@
+1. Primitive built-in types
+	signed & unsigned
+
+	use double over float, use int over long
+
+	If we assign an out-of-range value to an object of signed type, the result is undefined.
+
+	signed will automatically converted to unsigned
+
+	escape sequence
+
+2. Variables
+	Declaration and definition
+
