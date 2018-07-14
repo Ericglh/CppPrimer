@@ -11,4 +11,9 @@
 
 2. Variables
 	Declaration and definition
+		Recommend initializing every object of built-in type.
+
+	Scope of the variables
+
+	
 
