@@ -15,5 +15,47 @@
 
 	Scope of the variables
 
-	
+	Reference
+		An alias to the variable, point to the variable.
+
+		Must be initialized.
+
+		There is no way to rebind the reference with another variable
+
+		Have no address, just refer to the object
+
+	Pointer
+		Like references, pointers are used for indirect access to other objects. Unlike a reference, a pointer is an object in its own right.
+
+		A pointer holds the address of another object. We get the address of an object by usin the address-of operator (the & operator)
+
+		A pointer holds the address of another object. We get the address of an object by usin the address-of operator.
+
+		Dereference a ppinter yields the object to which the pointer points.
+
+		It is illegal to assign a int value to a pointer
+
+		Always initialize pointers
+
+		The type void* is a special pointer type that can hold the address of any object. Like any other pointer, a void* pointer holds an address, but the type of the object at that address is unknown
+
+	Examples:
+		int i = 42;
+		int&r=i; //& followsatypeandispartofadeclaration; r is a reference
+		int *p;
+		pointer
+		// * follows a type and is part of a declaration; p is a 
+		// & is used in an expression as the address-of operator
+		// * is used in an expression as the dereference operator
+		p = &i;
+		*p = i;
+		int &r2 = *p; // & is part of the declaration; * is the dereference operator
+
+	Pointers to pointers
+		We can define a reference to a pointer
+
+		
+
+
+
 
