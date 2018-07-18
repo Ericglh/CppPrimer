@@ -15,5 +15,23 @@
 
 	Scope of the variables
 
-	
+	Reference
+		An alias to the variable, point to the variable.
+
+		Must be initialized.
+
+		There is no way to rebind the reference with another variable
+
+		Have no address, just refer to the object
+
+	Pointer
+		Like references, pointers are used for indirect access to other objects. Unlike a reference, a pointer is an object in its own right.
+
+		A pointer holds the address of another object. We get the address of an object by usin the address-of operator (the & operator)
+
+		A pointer holds the address of another object. We get the address of an object by usin the address-of operator.
+
+		Dereference a ppinter yields the object to which the pointer points.
+
+		
 
