@@ -22,7 +22,7 @@
 
 		There is no way to rebind the reference with another variable
 
-		Have no address, just refer to the object
+		Have no address, just refer to the object.
 
 	Pointer
 		Like references, pointers are used for indirect access to other objects. Unlike a reference, a pointer is an object in its own right.
@@ -54,3 +54,37 @@
 	Pointers to pointers
 		We can define a reference to a pointer
 
+	4. const Qualifier
+		Should be initialized when declared
+
+		Const variables are local to a file. Using const variable has the same name will generate seperate variables. If you want to share the const variables, you use extern keyword at both definition and declaration.
+
+		Reference to const
+
+		Pointer to const
+
+		Constant expression
+			Variables declared as constexpr are implicitly const and must be initialized by constant expressions.
+
+
+	5. Dealing with Types
+		Type aliases
+			typedef
+
+			using
+
+		The auto type specifier
+
+		The decltype
+			we want to define a variable with a type that the compiler deduces from an expression but do not want to use that expression to initialize the variable. 
+
+	6. Define own data structure
+		Struct
+
+		Preprocessor
+			#ifdef, #ifndef, #endif
+
+			Preprocessor variable names do not respect C++ scoping rules.
+
+	Summary
+		
