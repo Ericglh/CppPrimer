@@ -76,7 +76,7 @@
 		The auto type specifier
 
 		The decltype
-			we want to define a variable with a type that the compiler deduces from an expression but do not want to use that expression to initialize the variable. 
+			We want to define a variable with a type that the compiler deduces from an expression but do not want to use that expression to initialize the variable. 
 
 	6. Define own data structure
 		Struct
@@ -85,6 +85,4 @@
 			#ifdef, #ifndef, #endif
 
 			Preprocessor variable names do not respect C++ scoping rules.
-
-	Summary
 		
