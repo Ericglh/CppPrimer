@@ -22,7 +22,7 @@
 
 		There is no way to rebind the reference with another variable
 
-		Have no address, just refer to the object
+		Have no address, just refer to the object.
 
 	Pointer
 		Like references, pointers are used for indirect access to other objects. Unlike a reference, a pointer is an object in its own right.
@@ -53,7 +53,6 @@
 
 	Pointers to pointers
 		We can define a reference to a pointer
-
 
 	4. const Qualifier
 		Should be initialized when declared
@@ -89,8 +88,3 @@
 
 	Summary
 		
-
-
-		
-
-
