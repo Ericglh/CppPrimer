@@ -54,7 +54,6 @@
 	Pointers to pointers
 		We can define a reference to a pointer
 
-
 	4. const Qualifier
 		Should be initialized when declared
 
@@ -89,8 +88,3 @@
 
 	Summary
 		
-
-
-		
-
-
